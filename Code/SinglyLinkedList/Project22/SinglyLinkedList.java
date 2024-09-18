@@ -77,6 +77,5 @@ public class SinglyLinkedList {
         result.head = add(sll1.head, sll2.head);
         System.out.println("Displaying Linked List After Addition :-");
         result.display();
-
     }
 }
