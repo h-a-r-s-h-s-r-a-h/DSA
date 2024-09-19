@@ -19,7 +19,7 @@ public class SinglyLinkedList {
             System.out.print(current.data + " --> ");
             current = current.next;
         }
-        System.out.print("null");
+        System.out.println("null");
     }
 
     public static void main(String[] args) {
