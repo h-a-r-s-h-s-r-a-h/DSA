@@ -15,7 +15,7 @@ public class SinglyLinkedList {
 
     public void display() {
         ListNode current = head;
-        while(current != null){
+        while (current != null) {
             System.out.print(current.data + " --> ");
             current = current.next;
         }
@@ -28,8 +28,8 @@ public class SinglyLinkedList {
         }
         int count = 0;
         ListNode current = head;
-        while(current != null){
-            count ++;
+        while (current != null) {
+            count++;
             current = current.next;
         }
         return count;
