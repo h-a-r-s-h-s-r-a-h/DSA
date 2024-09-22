@@ -15,7 +15,7 @@ public class SinglyLinkedList {
 
     public void display() {
         ListNode current = head;
-        while(current != null){
+        while (current != null) {
             System.out.print(current.data + " --> ");
             current = current.next;
         }
@@ -24,19 +24,19 @@ public class SinglyLinkedList {
 
     public void insertLast(int value) {
         ListNode newNode = new ListNode(value);
-        if(head == null) {
+        if (head == null) {
             head = newNode;
             return;
         }
         ListNode current = head;
-        while(null != current.next) {
+        while (null != current.next) {
             current = current.next;
         }
         current.next = newNode;
     }
 
     public ListNode deleteFirst() {
-        if(head == null) {
+        if (head == null) {
             return null;
         }
         ListNode temp = head;
