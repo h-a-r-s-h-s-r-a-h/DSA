@@ -70,7 +70,6 @@ public class BinaryTree {
     }
 
 
-
     // Iterative pre-order traversal using the custom Stack class
     public void preOrderIterative(TreeNode root) {
         if (root == null) {
