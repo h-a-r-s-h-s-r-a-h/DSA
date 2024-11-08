@@ -80,5 +80,8 @@ public class Queue {
         for (String binary : binaryNumbers) {
             System.out.print(binary + " ");
         }
+//        for (int i = 0; i < binaryNumbers.length; i++) {
+//            System.out.print(binaryNumbers[i] + " ");
+//        }
     }
 }
