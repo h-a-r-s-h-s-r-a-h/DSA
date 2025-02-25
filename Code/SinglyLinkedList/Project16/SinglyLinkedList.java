@@ -45,7 +45,7 @@ public class SinglyLinkedList {
         }
 
         // Case when the new node should be inserted before the head
-        if (newNode.data < head.data) {
+        if (newNode.data <= head.data) {
             newNode.next = head;
             head = newNode;
             return head;

@@ -31,6 +31,17 @@ public class Graph {
         return sb.toString();
     }
 
+    public void print() {
+        System.out.println(V + " vertices " + E + " edges ");
+        for (int v = 0; v < V; v++) {
+            System.out.print(v + ": ");
+            for (int w = 0; w < E; w++) {
+                System.out.print(adjMatrix[v][w] + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         Graph g = new Graph(4);
         g.addEdge(0, 1);
@@ -38,5 +49,6 @@ public class Graph {
         g.addEdge(2, 3);
         g.addEdge(3, 0);
         System.out.println(g);
+//        g.print();
     }
 }
