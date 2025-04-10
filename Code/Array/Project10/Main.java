@@ -3,12 +3,12 @@ package Code.Array.Project10;
 import java.util.Scanner;
 
 public class Main {
-    public boolean isPalindrome(String word){
+    public boolean isPalindrome(String word) {
         char[] charArray = word.toCharArray();
         int start = 0;
         int end = word.length() - 1;
-        while(start < end){
-            if(charArray[start] != charArray[end]) {
+        while (start < end) {
+            if (charArray[start] != charArray[end]) {
                 return false;
             } else {
                 start++;
